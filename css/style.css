@@ -17,6 +17,19 @@ body {
 	font-family: 'Merriweather', serif;	
 }
 
+@font-face {
+    font-family: myFirstFont;
+    src: url(sansation_light.woff);
+}
+
+@font-face {
+    font-family: "CustomFont";
+    src: url('../css/fonts/AlexBrush-Regular.ttf') format("truetype");
+}
+.customfont { 
+    font-family: "CustomFont";
+}
+
 
 /*==========================================
 PRE LOADER 
@@ -204,6 +217,13 @@ a:hover{
 	overflow:hidden;
 	padding:20px 0px 30px 0px;
 }
+
+.separetor1{
+	background:url(../images/separator-line.png) no-repeat center center;
+	overflow:hidden;
+	padding:20px 0px 30px 0px;
+}
+
 .scrolldown {
 	padding-top: 24px;
 }
@@ -254,7 +274,7 @@ a:hover{
 	z-index: 300;
     box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
     -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
-    background-color: #fff;
+    background-color: #c83226;
 	height:80px;
 	
 }
@@ -270,7 +290,7 @@ a:hover{
     margin-top: 20px;
 }
 .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus{
-	color:#3c3c3c;
+	color:#f5f5f5;
 }
 .main_menu_bg .navbar {
     margin-bottom:0px;
@@ -279,9 +299,9 @@ a:hover{
 	border:1px solid transparent;
 }
 .main_menu_bg .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus{
-	color:#3c3c3c;
+	color:#f5f5f5;
 	background-color:transparent;
-	border:1px solid #666;
+	border:1px solid rgba(251, 2, 2, 0.41);
 	text-transform:uppercase;
 }
 
@@ -295,7 +315,7 @@ a:hover{
 /* Banner section */
 
 .banner{
-	background:url(../images/bannerbg.JPG) no-repeat;
+	background:url(../images/bannerbg.jpg) no-repeat;
 	position:relative;
 	background-size:cover;
 }
@@ -307,7 +327,7 @@ a:hover{
 
 .single_banner_text p{
 	font-size:40px;
-	color:#F5B041;
+	color:#f5f5f5;
 }
 
 
@@ -315,7 +335,7 @@ a:hover{
 
 /* features section */
 .features{
-	background:#f3c30f;
+	background:rgb(212, 66, 66);
 }
 
 .sinle_features{
@@ -327,12 +347,12 @@ a:hover{
 }
 .sinle_features h5{
 	margin-bottom:20px;
-	color:#3c3c3c;
+	color:#f5f5f5;
 	font-weight:700;
 	font-size:18px;
 }
 .sinle_features p{
-	color:#3c3c3c;
+	color:#f5f5f5;
 	font-weight:300;
 	font-size:16px;
 }
@@ -474,7 +494,7 @@ a:hover{
 
 /* footer section */
 .footer{
-	background:url(../images/footerbg.jpg) no-repeat center top;
+	background:url(../images/contact.jpg) no-repeat center top;
 	background-size:cover;
 	padding-top:80px;
 }

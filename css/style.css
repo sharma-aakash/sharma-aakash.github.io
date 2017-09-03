@@ -315,7 +315,7 @@ a:hover{
 /* Banner section */
 
 .banner{
-	background:url(../images/bannerbg.jpg) no-repeat;
+	background:url(../images/bannerimg.jpg) no-repeat;
 	position:relative;
 	background-size:cover;
 }

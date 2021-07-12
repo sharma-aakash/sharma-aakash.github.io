@@ -274,7 +274,7 @@ a:hover{
 	z-index: 300;
     box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
     -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
-    background-color: #c83226;
+    background-color: #E15B74;
 	height:80px;
 	
 }
@@ -290,7 +290,7 @@ a:hover{
     margin-top: 20px;
 }
 .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus{
-	color:#f5f5f5;
+	color:#810B89;
 }
 .main_menu_bg .navbar {
     margin-bottom:0px;
@@ -299,7 +299,7 @@ a:hover{
 	border:1px solid transparent;
 }
 .main_menu_bg .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus{
-	color:#f5f5f5;
+	color:#810B89;
 	background-color:transparent;
 	border:1px solid rgba(251, 2, 2, 0.41);
 	text-transform:uppercase;
@@ -327,7 +327,7 @@ a:hover{
 
 .single_banner_text p{
 	font-size:40px;
-	color:#c83226;
+	color:#810B89;
 }
 
 
@@ -335,7 +335,7 @@ a:hover{
 
 /* features section */
 .features{
-	background:rgb(212, 66, 66);
+	background:rgb(225,91,116);
 }
 
 .sinle_features{
@@ -410,7 +410,7 @@ a:hover{
 	padding-bottom:50px;
 }
 .abouts{
-	background:#ddd;
+	background:#FFF;
 }
 
 .single_abouts p{
@@ -419,11 +419,13 @@ a:hover{
 	text-align:center;
 	font-family: 'Merriweather', serif;
 }
+
 .signature_img{}
 
 
 /* Menus Section */
 .main_menus{
+
 	overflow:hidden;
 }
 .menus_top_menu{
@@ -434,14 +436,14 @@ a:hover{
 }
 .menus_top_menu a{
 	border:1px solid transparent;
-	color:#3c3c3c;
+	color:#ddd;
 	padding:5px 10px;
 	display:block;
 	transition:.6s;
 }
 .menus_top_menu a:hover{
 	border:1px solid #b1b1b1;
-	color:#000;
+	color:#ddd;
 	padding:5px 10px;
 	display:block;	
 }
